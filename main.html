@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Match</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="border-bottom border-color-darkMy">
+        <div class="container-fluid py-2 py-md-3 bg-white">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-lg-8">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                        <a class="navbar-brand" href="main.html">
+                            <img src="logo.png" width="50" height="50" class="d-inline-block align-text-top me-2">
+                        </a>
+                        <span class="ms-2 ms-md-3 text-darkMy d-none d-sm-block">Найди свою вторую половинку</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mt-2 mt-md-0">
+                    <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-end align-items-center align-items-md-center">
+                        <a href="tel:+11111111111" class="text-decoration-none me-md-3 text-darkMy mb-2 mb-md-0">
+                            <i class="fas fa-phone me-1"></i><strong>+111 11 1111111</strong>
+                        </a>
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-outline-custom btn-sm text-darkMy">
+                                <i class="fas fa-user me-1"></i>Личный кабинет
+                            </a>
+                            <button type="button"
+                                class="btn btn-outline-custom btn-sm dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown">
+                                <span class="visually-hidden">Меню</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-cog me-2"></i>Настройки</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt me-2"></i>Выйти</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light text-bg-navigation py-2 py-md-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <div class="row w-100 align-items-center">
+                        <div class="col-12 col-lg-9 col-xl-10 mb-3 mb-lg-0">
+                            <ul class="navbar-nav flex-row flex-wrap justify-content-center justify-content-lg-start">
+                                <li class="nav-item me-3 mb-2 mb-lg-0">
+                                    <a class="nav-link active fw-medium text-white" href="aboutUs.html">
+                                        <i class="fa-regular fa-address-card me-1 me-lg-2"></i> 
+                                        <span class="d-none d-md-inline">О нас</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item me-3 mb-2 mb-lg-0">
+                                    <a class="nav-link active fw-medium text-white" href="services.html">
+                                        <i class="fa-solid fa-clipboard-list me-1 me-lg-2"></i>
+                                        <span class="d-none d-md-inline">Услуги</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item me-3 mb-2 mb-lg-0">
+                                    <a class="nav-link active fw-medium text-white" href="submitApplication.html">
+                                        <i class="fas fa-edit me-1 me-lg-2"></i>
+                                        <span class="d-none d-md-inline">Подать заявку</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3 col-xl-2">
+                            <form class="d-flex justify-content-center justify-content-lg-end" role="search">
+                                <div class="input-group input-group-sm" style="max-width: 300px;">
+                                    <input class="form-control" type="search" placeholder="Поиск по сайту"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-custom" type="submit">
+                                        <i class="fas fa-search text-white"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="bg-main pb-4">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://static.tildacdn.com/tild3561-6461-4261-a435-323665656631/2-min.jpg"
+                            class="d-block img-fluid">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Настоящая любовь начинается здесь</h5>
+                            <p>Профессиональный подбор партнера на основе психологической совместимости.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.pinimg.com/originals/4d/cd/f9/4dcdf9efa383f1142146bfba7575fd5a.jpg"
+                            class="d-block img-fluid">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Более 500 счастливых пар</h5>
+                            <p>87% наших клиентов находят вторую половинку в течение 3 месяцев.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://moya-planeta.ru/upload/images/xl/e3/e5/e3e58067f0be3d9e6a45b78f70a5ccce8cd86ba4.jpg"
+                            class="d-block img-fluid">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ваша история начинается сегодня!</h5>
+                            <p>Пройдите бесплатную консультацию и узнайте о своих шансах на успех.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-12 col-md-10 col-lg-8 col-xl-10">
+                    <div class="text-center mb-4">
+                        <h2 class="display-6 display-md-5 fw-bold text-darkMy mb-3 mb-md-4">Добро пожаловать в бюро знакомств "My match"!</h2>
+                        <p class="text-lightMy fs-6 fs-md-5">
+                            Для тех, кто ценит свое время и разборчив в связях, мы создали эксклюзивный сервис
+                            поиска партнера,
+                            где конфиденциальность, глубокий анализ личности и индивидуальная работа становятся
+                            фундаментом для
+                            рождения вашего будущего дуэта.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="mb-5">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <h2 class="text-center fw-bold border-bottom pb-2 pb-md-3 mb-3 mb-md-4 text-darkMy">Наш подход — ваш результат</h2>
+                        <p class="text-center text-lightMy fs-6 fs-md-5">
+                            Мы не просто знакомим людей, мы создаем осознанные союзы на основе глубокой
+                            совместимости.
+                            Вот как это работает:
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-lg-8 mb-4 mb-lg-0">
+                        <article class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-3 p-md-4 text-lightMy">
+                                <h3 class="card-title text-darkMy fw-bold mb-3 mb-md-4">Метод персонального соответствия</h3>
+                                <p class="card-text mb-3 mb-md-4">
+                                    В отличие от случайных знакомств, мы используем многоуровневую систему проверки
+                                    совместимости:
+                                </p>
+                                <ul class="list-group list-group-flush mb-3 mb-md-4">
+                                    <li class="list-group-item border-0 ps-0 text-lightMy">
+                                        <i class="text-success me-2">✓</i>
+                                        <strong>Ценностный фильтр:</strong> Анализируем жизненные приоритеты и цели
+                                    </li>
+                                    <li class="list-group-item border-0 ps-0 text-lightMy">
+                                        <i class="text-success me-2">✓</i>
+                                        <strong>Психологический портрет:</strong> Оцениваем темперамент и характер
+                                    </li>
+                                    <li class="list-group-item border-0 ps-0 text-lightMy">
+                                        <i class="text-success me-2">✓</i>
+                                        <strong>Стиль жизни:</strong> Учитываем привычки, интересы и социальную
+                                        активность
+                                    </li>
+                                </ul>
+                                <p class="card-text mb-0">
+                                    Это позволяет нам создавать пары, где партнеры дополняют друг друга не только на
+                                    этапе
+                                    влюбленности, но и в долгосрочной перспективе.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <aside class="card border-color-darkMy h-100">
+                            <div class="card-header bg-opacity-10 border-color-darkMy text-bg-navigation">
+                                <h4 class="card-title mb-0 fw-bold">В цифрах и фактах</h4>
+                            </div>
+                            <div class="card-body p-3 p-md-4">
+                                <div class="d-flex align-items-start mb-3">
+                                    <div class="text-darkMy p-2 me-3">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <div>
+                                        <strong class="d-block text-darkMy">87%</strong>
+                                        <small class="text-lightMy">наших клиентов находят партнера для серьезных
+                                            отношений в течение первых 3 месяцев</small>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-start mb-3">
+                                    <div class="text-darkMy p-2 me-3">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div>
+                                        <strong class="d-block text-darkMy">2 из 3 пар</strong>
+                                        <small class="text-lightMy">созданных с нашей помощью, сохраняют отношения
+                                            дольше года</small>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-start">
+                                    <div class="text-darkMy p-2 me-3">
+                                        <i class="fas fa-rocket"></i>
+                                    </div>
+                                    <div>
+                                        <strong class="d-block text-darkMy">В 4 раза больше шансов</strong>
+                                        <small class="text-lightMy">профессиональный подход увеличивает шансы на успех
+                                            по сравнению со случайными знакомствами</small>
+                                        <small class="text-lightMy fst-italic d-block mt-1">— по данным нашего
+                                            исследования, 2024</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="border-top border-color-darkMy">
+        <div class="container-fluid py-3">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
+                    <a href="tel:+" class="text-decoration-none text-darkMy">
+                        <i class="fas fa-phone me-1"></i>+111 11 1111111
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-end">
+                    <p class="mb-0 text-darkMy">My Match</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
