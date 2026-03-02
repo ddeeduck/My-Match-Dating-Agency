@@ -6,7 +6,9 @@
 ![](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
 ![](https://img.shields.io/badge/License-MIT-yellow)
 
-A modern, responsive website for a dating agency "My Match". Built with HTML5, Sass, and Bootstrap 5, it showcases the agency's services, team, and approach in a clean, user-friendly design.
+A modern, responsive website for a dating agency "My Match". This project was created for educational purposes to practice front‑end development skills using HTML5, Sass, and Bootstrap 5. The main emphasis is on the technical implementation: semantic markup, Sass architecture, responsiveness, and the use of ready‑made components.
+
+***Note:** Design was not a priority. The primary goal was to demonstrate proficiency in the technologies, so the visual appearance may be simple or inspired by typical layouts.*
 
 The Russian version is available [here](README.ru.md).
 
