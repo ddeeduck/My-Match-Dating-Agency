@@ -31,11 +31,13 @@ This multi-page website presents a dating agency's brand, values, and offerings.
 
 ## Screenshots
 Home page with carousel and welcome section
+
 <img src="images/mainWindow.png" width="600">
 
 <br>
 
 Services page with pricing cards
+
 <img src="images/services.png" width="600">
 
 ## Installation & Usage
