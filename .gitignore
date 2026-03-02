@@ -20,11 +20,6 @@ yarn-error.log*
 # Dependency directories (if using npm for Sass)
 node_modules/
 
-# Compiled CSS and source maps (from Sass)
-css/*.css
-css/*.css.map
-!css/.gitkeep
-
 # Build folders (if any)
 /dist/
 /build/
