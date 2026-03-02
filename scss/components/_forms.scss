@@ -1,0 +1,28 @@
+@mixin form-variant($border-color) {
+    border: 2px solid $border-color;
+    border-radius: 0.75rem;
+    padding: $spacing-sm $spacing-md;
+    width: 100%;
+    transition: all 0.3s ease;
+    
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba($primary-color, 0.1);
+    }
+    
+    &::placeholder {
+        color: lighten($text-dark, 30%);
+    }
+}
+
+.form-control {
+    @include form-variant($primary-color);
+}
+
+.form-select {
+    @include form-variant($primary-color);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23b1103a' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}

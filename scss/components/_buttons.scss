@@ -1,0 +1,30 @@
+.btn-outline-custom {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid $primary-color;
+    border-radius: 0.375rem;
+    padding: $spacing-sm $spacing-md;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: $primary-color;
+    background: transparent;
+    
+    &:hover {
+        background-color: $primary-color;
+        color: $white;
+        border-color: $primary-color;
+    }
+    
+    &.btn-sm {
+        padding: $spacing-xs $spacing-sm;
+        font-size: $font-size-sm;
+    }
+    
+    &.btn-lg {
+        padding: $spacing-md $spacing-lg;
+        font-size: $font-size-lg;
+    }
+}

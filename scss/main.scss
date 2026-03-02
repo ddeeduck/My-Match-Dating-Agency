@@ -1,0 +1,47 @@
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/nav';
+@import 'components/cards';
+@import 'components/carousel';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/services';
+@import 'pages/application';
+
+@import 'themes/light';
+
+.bg-main {
+    background-color: $background-color;
+}
+
+.bg-darkMy {
+    background-color: $primary-color;
+}
+
+.text-darkMy {
+    color: $primary-color;
+    font-style: italic;
+}
+
+.text-lightMy {
+    color: $text-dark;
+}
+
+.text-bg-navigation {
+    color: $white;
+    background-color: $secondary-color;
+}
+
+.border-color-darkMy {
+    border-color: $primary-color !important;
+}
+
+@include typography-scaling(1rem, 1.25);

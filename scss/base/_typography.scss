@@ -1,0 +1,31 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+}
+
+%text-base {
+    line-height: 1.6;
+    margin-bottom: $spacing-md;
+}
+
+.text-darkMy {
+    @extend %text-base;
+    color: $primary-color;
+    font-style: italic;
+}
+
+.text-lightMy {
+    @extend %text-base;
+    color: $text-dark;
+}
+
+@mixin typography-scaling($startSize, $step) {
+    $currentSize: $startSize;
+    
+    @for $i from 6 through 1 {
+        h#{$i} {
+            font-size: $currentSize;
+        }
+        $currentSize: $currentSize * $step;
+    }
+}

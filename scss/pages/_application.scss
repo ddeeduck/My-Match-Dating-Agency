@@ -1,0 +1,11 @@
+.application {
+    .form-section {
+        background: rgba($white, 0.9);
+        backdrop-filter: blur(10px);
+    }
+    
+    .form-check-input:checked {
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
+}

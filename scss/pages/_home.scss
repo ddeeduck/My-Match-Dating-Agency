@@ -1,0 +1,10 @@
+.home {
+    &-hero {
+        background: linear-gradient(135deg, $background-color 0%, lighten($background-color, 5%) 100%);
+    }
+    
+    &-statistics {
+        background: rgba($white, 0.8);
+        backdrop-filter: blur(10px);
+    }
+}

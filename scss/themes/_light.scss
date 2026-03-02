@@ -1,0 +1,8 @@
+.light-theme {
+    --bg-main: #{$background-color};
+    --bg-darkMy: #{$primary-color};
+    --text-darkMy: #{$primary-color};
+    --text-lightMy: #{$text-dark};
+    --bg-navigation: #{$secondary-color};
+    --white: #{$white};
+}
